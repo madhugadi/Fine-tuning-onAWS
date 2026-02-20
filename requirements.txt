@@ -1,11 +1,4 @@
-ipykernel==7.2.0               # latest jupyter kernel package (Feb 6, 2026):contentReference[oaicite:1]{index=1}
-transformers==5.2.0           # Hugging Face Transformers latest major release:contentReference[oaicite:2]{index=2}
-datasets==4.5.0               # Hugging Face datasets library (Jan 14, 2026):contentReference[oaicite:3]{index=3}
-sagemaker==3.4.1              # SageMaker Python SDK (latest 3.x) (approx latest as of 2026)
-boto3==1.30.0                 # Latest known 1.30.x release (upgrade to the newest 1.x available)
-pandas==2.2.3                 # Latest pandas stable (2025–2026 era)
-cmake==3.27.0                 # Matches your pinned version (still recent)
-pyarrow==17.0.0               # Latest Apache Arrow Python binding
-bitsandbytes==0.49.2          # Newer bitsandbytes quantization library
-peft==0.18.1                  # Latest PEFT compatible with Transformers 5+ 
-s3fs==2026.2.0                # Latest s3fs (PyPI “2026.2.0”):contentReference[oaicite:4]{index=4}
+transformers==4.44.2
+datasets==2.19.1
+peft==0.11.1
+bitsandbytes==0.43.3
